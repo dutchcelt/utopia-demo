@@ -1,0 +1,17 @@
+{
+	"name": "@dutchcelt/utopia-demo",
+	"version": "1.0.0",
+	"scripts": {
+		"build": "node \"./build.js\""
+	},
+	"author": "C. Egor Kloos",
+	"license": "AGPLv3",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dutchcelt/utopia-demo.git"
+	},
+	"devDependencies": {
+		"style-dictionary": "^3.9.2",
+		"utopia-core": "^1.3.0"
+	}
+}

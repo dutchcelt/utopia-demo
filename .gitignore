@@ -1,0 +1,16 @@
+# Editors / IDE
+.idea
+.nova
+.vscode
+
+# NPM/Node
+.npmrc
+node_modules
+
+# Builds
+temp
+dist
+build
+
+# OS files
+.DS_Store
