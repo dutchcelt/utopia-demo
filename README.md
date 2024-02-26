@@ -18,8 +18,6 @@ We can add some clamped font-sizes using an [Utopia Core](https://github.com/try
 	"comment": "the medium size of the font",
 	"$extensions": {
 		"utopia.calculate.clamp": {
-			"minWidth": "420",
-			"maxWidth": "1280",
 			"minSize": "16",
 			"maxSize": "18"
 		}
