@@ -60,3 +60,5 @@ You should see something like this output:
 ✔︎  build/css/_variables.css
 ✔︎  build/css/_scales.css
 ```
+
+The scale generated can be viewed in the build folder. This beats manually copy &amp; pasting [the same values from the Utopia site](https://utopia.fyi/type/calculator?c=420,16,1.2,1280,18,1.25,4,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12).
