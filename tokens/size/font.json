@@ -1,12 +1,28 @@
 {
 	"size": {
 		"font": {
+			"default": {
+				"value": "1",
+				"comment": "the root size of the project",
+				"$extensions": {
+					"utopia.type.scales": {
+						"minWidth": "{layout.breakpoint.mobile.value}",
+						"maxWidth": "{layout.breakpoint.desktop.value}",
+						"minFontSize": "16",
+						"maxFontSize": "18",
+						"minTypeScale": "1.2",
+						"maxTypeScale": "1.25",
+						"positiveSteps": "4",
+						"negativeSteps": "2"
+					}
+				}
+			},
 			"small": {
 				"value": "0.75",
 				"comment": "the small size of the font"
 			},
 			"medium": {
-				"value": "1",
+				"value": "{size.font.default.value}",
 				"comment": "the medium size of the font",
 				"$extensions": {
 					"utopia.calculate.clamp": {
