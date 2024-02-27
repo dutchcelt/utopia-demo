@@ -57,6 +57,6 @@ npm run build
 You should see something like this output:
 
 ```css
-✔︎  build/scss/_variables.css
-✔︎  build/scss/_scales.css
+✔︎  build/css/_variables.css
+✔︎  build/css/_scales.css
 ```
