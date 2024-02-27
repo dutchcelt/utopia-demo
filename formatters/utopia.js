@@ -26,9 +26,10 @@ const hasExtension = token => {
  * @returns {string} The T-shirt size corresponding to the given step value.
  */
 const convertToTShirtSize = (step) => {
-	const tShirtSizes = ['xxxxxs', 'xxxxs', 'xxxs', 'xxs', 'xs', 's', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl', 'xxxxxl', 'xxxxxxl', 'xxxxxxxl', 'xxxxxxxxl'];
-	const defaultIndex = 6;
-	return tShirtSizes[defaultIndex + step]
+	const i = Math.abs(step);
+	const prefix = i > 1 ? 'x'.repeat(i - 1) : '';
+	const size = ['s','m','l'][1 + Math.sign(step)];
+	return prefix + size;
 }
 
 const renderTypesScales = (config) => {
