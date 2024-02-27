@@ -25,6 +25,28 @@ We can add some clamped font-sizes using an [Utopia Core](https://github.com/try
 },
 ```
 
+You can also generate a complete scale from a single token
+
+```json
+{
+  "scales": {
+    "value": "1",
+    "$extensions": {
+      "utopia.type.scales": {
+        "minWidth": "{layout.breakpoint.mobile.value}",
+        "maxWidth": "{layout.breakpoint.desktop.value}",
+        "minFontSize": "16",
+        "maxFontSize": "18",
+        "minTypeScale": "1.2",
+        "maxTypeScale": "1.25",
+        "positiveSteps": "4",
+        "negativeSteps": "2"
+      }
+    }
+  }
+}
+```
+
 ## Build
 
 ```bash
@@ -35,4 +57,5 @@ You should see something like this output:
 
 ```css
 ✔︎  build/scss/_variables.css
+✔︎  build/scss/_scales.css
 ```

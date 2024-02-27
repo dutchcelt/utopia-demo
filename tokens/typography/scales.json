@@ -1,0 +1,17 @@
+{
+  "scales": {
+    "value": "1",
+    "$extensions": {
+      "utopia.type.scales": {
+        "minWidth": "{layout.breakpoint.mobile.value}",
+        "maxWidth": "{layout.breakpoint.desktop.value}",
+        "minFontSize": "16",
+        "maxFontSize": "18",
+        "minTypeScale": "1.2",
+        "maxTypeScale": "1.25",
+        "positiveSteps": "4",
+        "negativeSteps": "2"
+      }
+    }
+  }
+}
