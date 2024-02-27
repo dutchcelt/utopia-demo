@@ -49,6 +49,7 @@ You can also generate a complete scale from a single token
 
 ## Build
 
+Run a build after installing (`npm install`) to generate some type scales!
 ```bash
 npm run build
 ```
